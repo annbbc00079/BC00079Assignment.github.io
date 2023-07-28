@@ -1,0 +1,63 @@
+body{
+    font-family: 'Tahoma';
+    font-weight: normal;
+}
+
+table#tbAddNewProduct{
+    margin: auto;
+    width: 50%;
+    background-color: darkkhaki;
+    border-radius: 1%;
+    padding: 0.5%;
+}
+
+th#thAddProduct{
+    text-align: center;
+    font-size: large;
+    color: darkred;
+    background-color: peachpuff;
+}
+
+td#btnAddProduct{
+    text-align: center;
+    padding-top: 2%;
+}
+
+.btn{
+    color: blue;
+}
+
+textarea#ProductDescription{
+    font-family: 'Tahoma';
+}
+
+table#ListProduct{
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+    border-color:darkgray;
+}
+
+tr#ListProductTitle{
+    font-size: large;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    background-color: darkgray;
+}
+
+td.tdEdit{
+    text-align: center;
+}
+
+table#tbLogin{
+    margin: auto;
+    width: 35%;
+    background-color: darkcyan;
+    border-radius: 1%;
+    padding: 0.5%;
+}
+
+a{
+    text-decoration: none;
+}
