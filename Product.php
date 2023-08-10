@@ -1,9 +1,10 @@
 <html>        
     <h2 class="section-title">Latest Products</h2>
-     
-                          
-    <table width="100%" >
-
+    
+<center>         
+    <table width="70%" border="1">
+    <div class="single-product">
+    
         <?php
             require_once ("admin/DatabaseConnect.php");
             $sql = "SELECT * FROM product";
@@ -27,10 +28,12 @@
             if($i % 3 != 0)
                     echo "</tr>";
         ?>
+        
+        </div>
         </table>
 
 
-
-</div>
+        </div>
+        </center> 
     
 </html>

@@ -6,6 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website</title>
+    <link rel="stylesheet" href="CSS/Style.css">    
         <script src="JavaScript/JSscript.js"></script>  <!-- Set Menu height = Main height (option) -->
         <!-- Google Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
@@ -53,11 +54,7 @@
                         <li> <a  href="index.php?page=Introduction"><span>Introduction</span></a></li>
                         <li><a  href="index.php?page=Contact"><span>Contact</span></a></li>
                         <li><a href="checkout.html">Checkout</a></li>
-                        <li><a href="#">Category</a></li>
-                        <li><a href="#">Others</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-             
+                    
         
         <?php
 
@@ -72,12 +69,14 @@
             }
 
         ?>
+        </ul>
+             
         </div>  
             </div>
         </div>
     </div> <!-- End mainmenu area -->
 
-    <div id="mainfr">
+    <div id="site-branding-area">
         <?php
             if(isset($_GET['page'])){
                 if($_GET['page'] === "Introduction")
@@ -185,7 +184,9 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="copyright">
-                        <p>&copy; 2015 uCommerce. All Rights Reserved. <a href="http://www.freshdesignweb.com" target="_blank">freshDesignweb.com</a></p>
+                    <p><b>Cao đẳng Anh quốc BTEC Cần Thơ</b> &#169; Copyright AnNB 2022<br></p>
+                    <i>Address:</i> 41 Cách Mạng Tháng Tám, P.An Hòa, Q.Ninh Kiều, TP.Cần Thơ <br>
+                    <i>Phone:</i> +84 909726326
                     </div>
                 </div>
                 

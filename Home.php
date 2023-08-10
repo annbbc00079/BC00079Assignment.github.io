@@ -33,9 +33,9 @@
                     </div>
                 </div>
                 
-                 </div>
+            </div>
         </div>
-    </div> <!-- End site branding area -->
+</div> <!-- End site branding area -->
 <div class="mainmenu-area">
         <div class="container">
             <div class="row">
@@ -49,15 +49,13 @@
                 </div> 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="Home.php">Home</a></li>
                         <li><a  href="index.php?page=Product"><span>Product</span></a></li>
                         <li> <a  href="index.php?page=Introduction"><span>Introduction</span></a></li>
                         <li><a  href="index.php?page=Contact"><span>Contact</span></a></li>
                         <li><a href="checkout.html">Checkout</a></li>
-                        <li><a href="#">Category</a></li>
-                        <li><a href="#">Others</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+
+                    
              
         
         <?php
@@ -73,7 +71,7 @@
             }
 
         ?>
-        
+        </ul>
         </div>  
             </div>
         </div>
@@ -164,7 +162,7 @@
     
     
     
-    <div id="mainfr">
+    <div id="site-branding-area">
         <?php
             if(isset($_GET['page'])){
                 if($_GET['page'] === "Introduction")
@@ -281,16 +279,9 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="copyright">
-                        <p>&copy; 2015 uCommerce. All Rights Reserved. <a href="http://www.freshdesignweb.com" target="_blank">freshDesignweb.com</a></p>
-                    </div>
-                </div>
-                
-                <div class="col-md-4">
-                    <div class="footer-card-icon">
-                        <i class="fa fa-cc-discover"></i>
-                        <i class="fa fa-cc-mastercard"></i>
-                        <i class="fa fa-cc-paypal"></i>
-                        <i class="fa fa-cc-visa"></i>
+                    <p><b>Cao đẳng Anh quốc BTEC Cần Thơ</b> &#169; Copyright AnNB 2022<br></p>
+        <i>Address:</i> 41 Cách Mạng Tháng Tám, P.An Hòa, Q.Ninh Kiều, TP.Cần Thơ <br>
+        <i>Phone:</i> +84 909726326
                     </div>
                 </div>
             </div>
