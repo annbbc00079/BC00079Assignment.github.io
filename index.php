@@ -24,22 +24,6 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-<div id="menu">
-        
-        <?php
-            if(isset($_SESSION['user'])){
-                echo '<li class="menulist"> <a  href="index.php?page=Cart"><span>View Cart</span></a></li>';
-                echo '<li class="menulist"> <a  href="index.php?page=Profile"><span>Profile</span></a></li>';
-                echo '<li class="menulist"> <a  href="Logout.php"><span>Logout</span></a></li>';
-            }
-            else{
-                echo '<li class="menulist"> <a  href="index.php?page=Login"><span>Login</span></a></li>';
-                echo '<li class="menulist"> <a  href="index.php?page=Registration"><span>Registration</span></a></li>';
-            }
-        ?>
-        
-    </div>
-    
 <div class="site-branding-area">
         <div class="container">
             <div class="row">
@@ -57,8 +41,7 @@
             </div>
         </div>
     </div> <!-- End site branding area -->
-    
-    <div class="mainmenu-area">
+<div class="mainmenu-area">
         <div class="container">
             <div class="row">
                 <div class="navbar-header">
@@ -80,10 +63,31 @@
                         <li><a href="#">Others</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
-                </div>  
+             
+        
+        <?php
+
+            if(isset($_SESSION['user'])){
+                echo '<li class=""> <a  href="index.php?page=Cart"><span>View Cart</span></a></li>';
+                echo '<li class=""> <a  href="index.php?page=Profile"><span>Profile</span></a></li>';
+                echo '<li class=""> <a  href="Logout.php"><span>Logout</span></a></li>';
+            }
+            else{
+                echo '<li class=""> <a  href="index.php?page=Login"><span>Login</span></a></li>';
+                echo '<li class=""> <a  href="index.php?page=Registration"><span>Registration</span></a></li>';
+            }
+
+        ?>
+        
+        </div>  
             </div>
         </div>
     </div> <!-- End mainmenu area -->
+    
+
+    
+    
+                
     
     <div class="slider-area">
         	<!-- Slider -->
