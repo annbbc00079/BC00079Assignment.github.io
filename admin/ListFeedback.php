@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="CSS/Product_Manage_Style.css">
 </head>
 <body>
+<div calss="container-fluid ">
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
     <table border="1" id="ListProduct">
         <tr id="ListProductTitle">
             <td colspan="6">LIST FEEDBACK</td>
@@ -47,5 +50,8 @@
             }
         ?>
     </table>
+    </div>
+</div>
+</div>
 </body>
 </html>
