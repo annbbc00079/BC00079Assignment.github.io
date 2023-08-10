@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <title>My Website</title>
     <link rel="stylesheet" href="CSS/Style.css">    
-        <script src="JavaScript/JSscript.js"></script>  <!-- Set Menu height = Main height (option) -->
+        
         <!-- Google Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="CSS/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
         <!-- Custom CSS -->
     <link rel="stylesheet" href="CSS/owl.carousel.css">
     <link rel="stylesheet" href="style.css">
@@ -53,7 +53,6 @@
                         <li><a  href="index.php?page=Product"><span>Product</span></a></li>
                         <li> <a  href="index.php?page=Introduction"><span>Introduction</span></a></li>
                         <li><a  href="index.php?page=Contact"><span>Contact</span></a></li>
-                        <li><a href="checkout.html">Checkout</a></li>
                     
         
         <?php
@@ -71,10 +70,13 @@
         ?>
         </ul>
              
-        </div>  
+        </div>
             </div>
         </div>
+        
     </div> <!-- End mainmenu area -->
+    <br>
+        
 
     <div id="site-branding-area">
         <?php
@@ -103,18 +105,7 @@
         ?>
     </div>
     
-    <div class="brands-area">
-        <div class="zigzag-bottom"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="brand-wrapper">
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> <!-- End brands area -->
+<br>
     
     
         </div>
@@ -150,18 +141,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-3 col-sm-6">
-                    <div class="footer-menu">
-                        <h2 class="footer-wid-title">Categories</h2>
-                        <ul>
-                            <li><a href="#">Mobile Phone</a></li>
-                            <li><a href="#">Home accesseries</a></li>
-                            <li><a href="#">LED TV</a></li>
-                            <li><a href="#">Computer</a></li>
-                            <li><a href="#">Gadets</a></li>
-                        </ul>                        
-                    </div>
-                </div>
+                
                 
                 <div class="col-md-3 col-sm-6">
                     <div class="footer-newsletter">
@@ -187,15 +167,6 @@
                     <p><b>Cao đẳng Anh quốc BTEC Cần Thơ</b> &#169; Copyright AnNB 2022<br></p>
                     <i>Address:</i> 41 Cách Mạng Tháng Tám, P.An Hòa, Q.Ninh Kiều, TP.Cần Thơ <br>
                     <i>Phone:</i> +84 909726326
-                    </div>
-                </div>
-                
-                <div class="col-md-4">
-                    <div class="footer-card-icon">
-                        <i class="fa fa-cc-discover"></i>
-                        <i class="fa fa-cc-mastercard"></i>
-                        <i class="fa fa-cc-paypal"></i>
-                        <i class="fa fa-cc-visa"></i>
                     </div>
                 </div>
             </div>

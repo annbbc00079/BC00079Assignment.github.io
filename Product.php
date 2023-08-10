@@ -1,5 +1,5 @@
 <html>        
-    <h2 class="section-title">Latest Products</h2>
+    
     
 <center>         
     <table width="70%" border="1">
