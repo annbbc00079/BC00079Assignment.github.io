@@ -32,7 +32,8 @@
     <script src="JavaScript/JSscript.js"></script>
 </head>
 <body>
-    <table width="95%">
+    <center>
+    <table width="60%">
         <tr>
             <th colspan="2">OUR CONTACT</th>
         </tr>
@@ -76,7 +77,7 @@
         </tr>
     </form>
     </table>
-
+    </center>
     <?php echo "<i><b>".$info."</b></i>"; ?>
 </body>
 </html>

@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="CSS/Style.css">
 </head>
 <body>
-    <table width="100%" border="1" style="border-collapse:collapse">
+    <center>
+    <table width="50%" border="1" style="border-collapse:collapse">
         <tr>
             <td width="20%" style="padding-left: 1%">
                 <b><i>Product name:</i></b>
@@ -56,5 +57,6 @@
             </td>
         </tr>
     </table>
+    </center>
 </body>
 </html>

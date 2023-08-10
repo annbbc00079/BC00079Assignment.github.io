@@ -1,11 +1,9 @@
 <html>        
-    
-    
-<center>         
-    <table width="70%" border="1">
-    <div class="single-product">
-    
-        <?php
+   
+     
+<center>              
+    <table width="70%" border="1" style="border-collapse:collapse">
+    <?php
             require_once ("admin/DatabaseConnect.php");
             $sql = "SELECT * FROM product";
             $result = $conn -> query($sql);
@@ -16,7 +14,7 @@
                         echo "<td width='33%'><a href='index.php?page=ProductDetail&id={$row['product_id']}'>
                                 <center>
                                     <b>{$row['product_name']}</b><br/>
-                                    <img src=\"admin/{$row['product_image']}\" height='170px'><br/>
+                                    <img src=\"admin/{$row['product_image']}\"  width='100%'><br/>
                                     "?> <?php echo number_format($row['product_price'],0) ?> <?php echo "VND
                                 </center></a>
                                 <center><a href='index.php?page=Cart&action=add&id={$row['product_id']}'><button>Add to cart</button></a></center>
@@ -28,12 +26,10 @@
             if($i % 3 != 0)
                     echo "</tr>";
         ?>
-        
-        </div>
         </table>
 
 
-        </div>
-        </center> 
+        </center>    
+</div>
     
 </html>

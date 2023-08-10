@@ -18,6 +18,7 @@
     <title>User profile</title>
 </head>
 <body>
+    <center>
     <table width="50%">
         <tr>
             <th colspan="2">
@@ -62,5 +63,6 @@
             </td>
         </tr>
     </table>
+    </center>
 </body>
 </html>

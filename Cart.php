@@ -54,7 +54,8 @@ if(isset($_GET["action"])){
         text-align: center;
     }
 </style>
-<table border='1' width="100%" style="border-collapse: collapse;">
+<center>
+<table border='1' width="70%" style="border-collapse: collapse;">
     <thead>
 
         <tr class="cart_menu">
@@ -107,6 +108,7 @@ if(isset($_GET["action"])){
         <tr><td colspan="6" style="text-align:right"><a href="index.php" class="btn btn-primary">Continue to buy</a></td></tr>
     </tbody>
 </table>
+
 <section id="do_action">
     <div class="container">
         <div class="row">
@@ -126,3 +128,4 @@ if(isset($_GET["action"])){
         </div>
     </div>
 </section><!--/#do_action-->
+</center>
