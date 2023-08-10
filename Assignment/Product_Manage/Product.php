@@ -1,5 +1,11 @@
 <html>
-    <table width="100%" border="1" style="border-collapse:collapse">
+<div class="col-md-12">
+                    <div class="latest-product">
+                        <h2 class="section-title">Latest Products</h2>
+                        <div class="product-carousel">
+                            <div class="single-product">
+                            <div class="product-f-image">
+    <table width="100%" >
 
         <?php
             require_once ("admin/DatabaseConnect.php");
@@ -24,6 +30,10 @@
             if($i % 3 != 0)
                     echo "</tr>";
         ?>
-
+</div>
+</div>
+</div>
+</div>
+</div>
     </table>
 </html>
