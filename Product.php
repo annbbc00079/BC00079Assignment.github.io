@@ -1,10 +1,7 @@
-<html>
-<div class="col-md-12">
-                    <div class="latest-product">
-                        <h2 class="section-title">Latest Products</h2>
-                        <div class="product-carousel">
-                            <div class="single-product">
-                            <div class="product-f-image">
+<html>        
+    <h2 class="section-title">Latest Products</h2>
+     
+                          
     <table width="100%" >
 
         <?php
@@ -30,10 +27,10 @@
             if($i % 3 != 0)
                     echo "</tr>";
         ?>
+        </table>
+
+
+
 </div>
-</div>
-</div>
-</div>
-</div>
-    </table>
+    
 </html>
