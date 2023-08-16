@@ -16,7 +16,7 @@
 </head>
 <body>
     <center>
-    <table width="50%" border="1" style="border-collapse:collapse">
+    <table width="70%" border="1" style="border-collapse:collapse">
         <tr>
             <td width="20%" style="padding-left: 1%">
                 <b><i>Product name:</i></b>

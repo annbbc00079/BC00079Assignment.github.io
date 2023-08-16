@@ -2,7 +2,7 @@
    
      
 <center>              
-    <table width="70%" border="1" style="border-collapse:collapse">
+    <table width="80%" border="1" style="border-collapse:collapse">
     <?php
             require_once ("admin/DatabaseConnect.php");
             $sql = "SELECT * FROM product";
