@@ -18,6 +18,7 @@
 <div calss="container-fluid ">
     <div class="card shadow mb-4">
         <div class="card-header py-3">
+            
     <table border="1" id="ListProduct">
         <tr id="ListProductTitle">
             <td colspan="6">LIST USER</td>
@@ -42,9 +43,9 @@
             <td><?php echo $row['user_email']; ?></td>
             <td><?php echo $row['user_address']; ?></td>
             <td><?php ($row['user_status']==1)? print "Enable": print "Disable"; ?></td>
-            <td class="tdEdit">
-                <a href="index.php?page=ModifyUser&id=<?php echo $row['user_ID']; ?>">Edit</a> |
-                <a href="index.php?page=DeleteUser&id=<?php echo $row['user_ID']; ?>">Delete</a>
+            <td class="">
+                <a href="index.php?page=ModifyUser&id=<?php echo $row['user_ID']; ?>" class="btn btn-success">Edit</a>
+                <a href="index.php?page=DeleteUser&id=<?php echo $row['user_ID']; ?>" class="btn btn-danger">Delete</a>
             </td>
         </tr>
 

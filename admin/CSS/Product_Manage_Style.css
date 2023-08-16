@@ -6,7 +6,7 @@ body{
 table#tbAddNewProduct{
     margin: auto;
     width: 50%;
-    background-color: darkkhaki;
+    background-color: ghostwhite;
     border-radius: 1%;
     padding: 0.5%;
 }
@@ -14,7 +14,7 @@ table#tbAddNewProduct{
 th#thAddProduct{
     text-align: center;
     font-size: large;
-    color: darkred;
+    color: blue;
     background-color: peachpuff;
 }
 
@@ -24,7 +24,7 @@ td#btnAddProduct{
 }
 
 .btn{
-    color: blue;
+    color: black;
 }
 
 textarea#ProductDescription{

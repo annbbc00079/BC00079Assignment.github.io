@@ -19,6 +19,7 @@
 <div calss="container-fluid ">
     <div class="card shadow mb-4">
         <div class="card-header py-3">
+        <a href="index.php?page=AddProduct" class="btn btn-primary">Add Product</a>
     <table border="1" id="ListProduct">
         <tr id="ListProductTitle">
             <td colspan="6">LIST PRODUCT</td>
@@ -66,8 +67,8 @@
                 <img src="<?php echo $row['product_image']; ?>" height="90px">
             </td>
             <td class="tdEdit">
-                <a href="index.php?page=ModifyProduct&id=<?php echo $row['product_id']; ?>">Modify</a> |
-                <a href="index.php?page=DeleteProduct&id=<?php echo $row['product_id']; ?>">Delete</a>
+                <a href="index.php?page=ModifyProduct&id=<?php echo $row['product_id']; ?>"class="btn btn-success">Modify</a> 
+                <a href="index.php?page=DeleteProduct&id=<?php echo $row['product_id']; ?>"class="btn btn-danger">Delete</a>
             </td>
         </tr>
 

@@ -37,8 +37,7 @@
         </a>
         <!-- Divider -->
 
-        <hr class="sidebar-divider my-0">
-        <li class="nav-item active"><a class="nav-link" href="index.php?page=AddProduct"><span>Add Product</span></a></li>
+        
         
         <hr class="sidebar-divider my-0" >
         <li class="nav-item active"><a class="nav-link" href="index.php?page=ListProduct"><span>List Product</span></a></li>
@@ -49,8 +48,7 @@
         <hr class="sidebar-divider my-0" >
         <li class="nav-item active"><a class="nav-link" href="index.php?page=ListFeedback"><span>List Feedback</span></a></li>
 
-        <hr class="sidebar-divider my-0" >
-        <li class="nav-item active"><a class="nav-link" href="index.php?page=ListInvoice"><span>List Invoice</span></a></li>
+        
 
         
         <!-- Divider -->
@@ -66,18 +64,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <!-- Topbar Search -->
-                <form
-                    class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                    <div class="input-group">
-                        <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
-                            aria-label="Search" aria-describedby="basic-addon2">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary" type="button">
-                                <i class="fas fa-search fa-sm"></i>
-                            </button>
-                        </div>
-                    </div>
-                </form>
+                
 
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown no-arrow d-sm-none">
@@ -145,10 +132,7 @@
                     require_once ("ListFeedback.php");
                 else if($_GET['page'] === "DeleteFeedback")
                     require_once ("DeleteFeedback.php");
-                else if($_GET['page'] === "ListInvoice")
-                    require_once ("ListInvoice.php");
-                else if($_GET['page'] === "InvoiceDetail")
-                    require_once ("InvoiceDetail.php");
+                
             }
             else
                 echo "<marquee direction='right' scrolldelay='80'>Welcome to Administrator page</marquee>";

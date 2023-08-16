@@ -164,7 +164,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="copyright">
-                    <p><b>Cao đẳng Anh quốc BTEC Cần Thơ</b> &#169; Copyright AnNB 2022<br></p>
+                    <p><b>Cao đẳng Anh quốc BTEC Cần Thơ</b> &#169; Copyright AnNB 2023<br></p>
                     <i>Address:</i> 41 Cách Mạng Tháng Tám, P.An Hòa, Q.Ninh Kiều, TP.Cần Thơ <br>
                     <i>Phone:</i> +84 909726326
                     </div>

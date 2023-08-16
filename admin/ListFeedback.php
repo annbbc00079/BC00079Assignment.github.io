@@ -42,7 +42,7 @@
             <td><?php echo $row['contact_title']; ?></td>
             <td><?php echo $row['contact_message']; ?></td>
             <td class="tdEdit">
-                <a href="index.php?page=DeleteFeedback&id=<?php echo $row['contact_id']; ?>">Delete</a>
+                <a href="index.php?page=DeleteFeedback&id=<?php echo $row['contact_id']; ?>"class="btn btn-danger">Delete</a>
             </td>
         </tr>
 
