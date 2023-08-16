@@ -40,10 +40,10 @@ table#ListProduct{
 
 tr#ListProductTitle{
     font-size: large;
-    color: green;
+    color: black;
     text-align: center;
     font-weight: bold;
-    background-color: darkgray;
+    background-color: whitesmoke;
 }
 
 td.tdEdit{
@@ -53,7 +53,7 @@ td.tdEdit{
 table#tbLogin{
     margin: auto;
     width: 35%;
-    background-color: darkcyan;
+    background-color: whitesmoke;
     border-radius: 1%;
     padding: 0.5%;
 }
